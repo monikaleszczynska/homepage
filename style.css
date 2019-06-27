@@ -1,22 +1,29 @@
 
+.body {
+    background: #fefefe;
+ 
+}
+.link {
+    color: rgb(102, 109, 116);
+}
 
 .mainHeader {
     text-align: left;
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(109, 109, 134), 0 0 5px rgb(34, 34, 97);
     
 }
 
 
 .sectionHeader {
-    color: #1460AA;
-    text-shadow: 2px 2px 5px rgb(238, 247, 248);
-    font-size: 30px;
+    color: #5762D5;
+   
+   
 }
 
 .sectionDiary {
-    color: rgb(36, 49, 165);
-    font-size: 30px;
+    color: #5762D5;
+   
 }
 
 .diaryDay {
