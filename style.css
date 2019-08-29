@@ -1,42 +1,159 @@
-
 .body {
-    background: #fefefe;
- 
-}
-.link {
-    color: rgb(102, 109, 116);
+    background: #b6b1b1;
 }
 
-.mainHeader {
-    text-align: left;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgb(109, 109, 134), 0 0 5px rgb(34, 34, 97);
-    
+.about {
+    width: 100%;
+    max-width: 700px;
 }
 
-
-.sectionHeader {
-    color: #5762D5;
-   
-   
-}
-
-.sectionDiary {
-    color: #5762D5;
-   
-}
-
-.diaryDay {
+.about__header {
     color: rgb(4, 4, 65);
 }
 
-p {
-    color: #210749;
-    font-family: 'Franklin Gothic Medium';
-    text-align: justify;
+.about__link {
+    color: #5762D5;
 }
 
-.footer {
-    color: rgb(165, 21, 21);
+.about__paragraph {
+    padding: 0 0 0 16px;
+    border-left: 2px dashed #5762D5;
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+}
+.about__paragraph--mini {
+font-size: 16px;
+}
+
+.about__picture {
+    width: 100%;
+    max-width: 110px;
+    display: block;
+    float: left;
+    margin: 0px 16px 16px 0px;
+}
+
+.article__header{
+    color: #5762D5;
+}
+.article__paragraph{
+    color: #534c5f;
     font-family: 'Franklin Gothic Medium';
+    text-align: justify;
+    padding: 0 0 0 16px;
+    border-left: 2px dashed rgb(236, 84, 13);
+}
+.article__picture{
+    width: 110%;
+    height: 100px;
+    max-width: 110px;
+    display: block;
+    float: right;
+    margin: 0px 16px 16px 16px;
+}
+.article__ending{
+    text-align: center;
+    color: rgb(4, 4, 65);
+    max-width: 700px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.article__conclusion{
+    color: #534c5f;
+    font-family: 'Franklin Gothic Medium';
+    text-align: justify;
+    padding: 0 0 0 0px;
+    font-style: italic;
+}
+}
+.diary{
+    color: rgb(4, 4, 65);
+}
+.diary__header {
+    color: #5762D5;
+}
+.diary__paragraph {
+    color: #534c5f;
+    font-family: 'Franklin Gothic Medium';
+    text-align: justify;
+    padding: 0 0 0 16px;
+    border-left: 2px dashed #5762D5;
+}
+.diary__picture{
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    float: left;
+    margin: 0px 16px 0px 10px;   
+}
+
+.diary__header--question{
+    text-align: justify;
+    padding: 0 0 0 0px;
+}
+
+.diary__link {
+    color: #5762D5;
+    
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+
+.main__header {
+    text-align: left;
+    color: rgb(236, 84, 13);
+    max-width: 700px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.main__header--secondary{
+    text-align: left;
+    color: rgb(4, 4, 65);
+    max-width: 700px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.navigation__link {
+    color: #5762D5;
+}
+
+.section__idea{
+    color: #5762D5;
+}
+.section__paragraph{
+    color: #534c5f;
+    font-family: 'Franklin Gothic Medium';
+    text-align: justify;
+    padding: 0 0 0 16px;
+    border-left: 2px dashed rgb(236, 84, 13);
+}
+.section__zumba{
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    float: left;
+    margin: 0px 16px 0px 10px;   
+}
+
+.footer__look {
+    color: rgb(4, 4, 65);
+    font-family: 'Franklin Gothic Medium';
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    font-size: 14px;
+    font-style: italic;
+    border-top-color: 2px dashed rgb(236, 84, 13);
+}
+.footer__paragrah{
+  
 }
