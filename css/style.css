@@ -1,14 +1,28 @@
+html{
+    box-sizing: border-box;
+    }
+    *, *:after, *:before {
+box-sizing: inherit;
+    }
+
+
+
 .body {
-    background: #b6b1b1;
+    background-color:#fefefe;
+    background-image: url('../img/jasny.jpg');
+    background-repeat:repeat;
+
+
 }
 
 .about {
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 .about__header {
     color: rgb(4, 4, 65);
+    
 }
 
 .about__link {
@@ -33,11 +47,55 @@ font-size: 16px;
     display: block;
     float: left;
     margin: 0px 16px 16px 0px;
+    border-radius: 10px;
 }
 .box__paragraph {
     color: #534c5f;
 }
 
+.main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 32px auto;
+    padding: 16px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background: rgba(0,0,0,0.15);
+}
+
+.main__header {
+
+    text-align: left;
+    color: rgb(9, 5, 66);
+    max-width: 1000px;
+    padding: 0px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+}
+.main__header--secondary{
+    text-align: left;
+    color: rgb(4, 4, 65);
+    max-width: 1000px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.site-header{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    box-sizing: border-box;
+    left: 0;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+}
 .article__header{
     color: #5762D5;
 }
@@ -56,11 +114,12 @@ font-size: 16px;
     display: block;
     float: right;
     margin: 0px 16px 16px 16px;
+    border-radius: 10px;
 }
 .article__ending{
     text-align: center;
     color: rgb(4, 4, 65);
-    max-width: 700px;
+    max-width: 1000px;
     padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -76,6 +135,7 @@ font-size: 16px;
 }
 .diary{
     color: rgb(4, 4, 65);
+   
 }
 .diary__header {
     color: #5762D5;
@@ -94,6 +154,7 @@ font-size: 16px;
     display: block;
     float: left;
     margin: 0px 16px 0px 10px;   
+    border-radius: 10px;
 }
 
 .diary__header--question{
@@ -106,29 +167,17 @@ font-size: 16px;
     
 }
 
-.main {
-    width: 100%;
-    max-width: 700px;
-    margin: 32px auto;
+.navigation {
+
+}
+.navigation__list {
+list-style: none;
+padding: 0;
 }
 
-.main__header {
-    text-align: left;
-    color: rgb(236, 84, 13);
-    max-width: 700px;
-    padding: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+.navigation__item {
+display: inline;
 }
-.main__header--secondary{
-    text-align: left;
-    color: rgb(4, 4, 65);
-    max-width: 700px;
-    padding: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 24px;
-}
-
 .navigation__link {
     color: #5762D5;
 }
@@ -152,12 +201,21 @@ font-size: 16px;
     margin: 0px 16px 0px 10px;  
     line-height: 24px; 
 }
+.zumba__trener{
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    float: left;
+    margin: 0px 16px 0px 10px;   
+    border-radius: 10px;
+}
+
 
 .footer__look {
     color: rgb(4, 4, 65);
     font-family: 'Franklin Gothic Medium';
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     margin: 32px auto;
     font-size: 14px;
     font-style: italic;
@@ -166,4 +224,13 @@ font-size: 16px;
 }
 .footer__paragrah{
   
+}
+
+.hobby{
+
+}
+
+.hobby__list{
+    list-style: square;
+    
 }
