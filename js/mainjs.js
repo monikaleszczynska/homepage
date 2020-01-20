@@ -59,3 +59,11 @@ welcome('Monika', 31);
 
 const button = document.querySelector('.header__button--js');
 console.log(button);
+
+
+
+
+button.addEventListener('click', (e) => {
+const header = document.querySelector('.main__header--js');
+header.innerHTML = 'klik, klik';
+});
