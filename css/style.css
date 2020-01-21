@@ -1,28 +1,24 @@
-html{
+html {
     box-sizing: border-box;
-    }
-    *, *:after, *:before {
-box-sizing: inherit;
-    }
+}
 
-
+*, *:after, *:before {
+    box-sizing: inherit;
+}
 
 .body {
-    background-color:#fefefe;
+    background-color: #fefefe;
     background-image: url('../img/jasny.jpg');
-    background-repeat:repeat;
-
-
+    background-repeat: repeat;
 }
 
 .about {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .about__header {
-    color: rgb(4, 4, 65);
-    
+    color: rgb(249, 249, 252);
 }
 
 .about__link {
@@ -31,14 +27,16 @@ box-sizing: inherit;
 
 .about__paragraph {
     padding: 0 0 0 16px;
-    border-left: 2px dashed #5762D5;
+    border-left: 2px dashed rgb(238, 133, 241);
     font-size: 18px;
     font-style: italic;
     text-align: justify;
     line-height: 24px;
+    color:  rgb(248, 247, 248);
 }
+
 .about__paragraph--mini {
-font-size: 16px;
+    font-size: 16px;
 }
 
 .about__picture {
@@ -49,25 +47,24 @@ font-size: 16px;
     margin: 0px 16px 16px 0px;
     border-radius: 10px;
 }
+
 .box__paragraph {
     color: #534c5f;
 }
 
 .main {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 32px auto;
     padding: 16px;
     background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    
+    background-image: linear-gradient( 112.5deg,  rgba(95,10,135,1) 11.4%, rgba(164,80,139,1) 60.2% );
 }
 
 .main__header {
-
-    text-align: left;
-    color: rgb(9, 5, 66);
-    max-width: 1000px;
+   
+    color: rgb(11, 188, 194);
+    max-width: 1200px;
     padding: 0px;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -75,168 +72,190 @@ font-size: 16px;
     display: flex;
     justify-content: center;
 }
-.main__header--secondary{
-    text-align: left;
-    color: rgb(4, 4, 65);
+
+.main__header--secondary {
+    text-align: center;
+    color: rgb(99, 5, 102);
     max-width: 1000px;
     padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 24px;
     display: flex;
     justify-content: center;
-   
-    
 }
-.site-header{
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+
+.site-header {
+    
     box-sizing: border-box;
     left: 0;
     padding: 16px;
     position: fixed;
     top: 0;
     width: 100%;
-  
+    height:1200px;
+
 }
-.article__header{
-    color: #5762D5;
+
+.article__header {
+    color: rgb(11, 188, 194);
 }
-.article__paragraph{
-    color: #534c5f;
+
+.article__paragraph {
+    color: #f3f0f8;
     font-family: 'Franklin Gothic Medium';
     text-align: justify;
     padding: 0 0 0 16px;
-    border-left: 2px dashed rgb(236, 84, 13);
+    border-left: 2px dashed rgb(250, 249, 248);
     line-height: 24px;
 }
-.article__picture{
+
+.article__picture {
     width: 110%;
     height: 100px;
-    max-width: 110px;
+    max-width: 100px;
     display: block;
     float: right;
     margin: 0px 16px 16px 16px;
     border-radius: 10px;
 }
-.article__ending{
+
+.article__ending {
     text-align: center;
-    color: rgb(4, 4, 65);
+    color: rgb(53, 6, 54);
     max-width: 1000px;
     padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
-.article__conclusion{
-    color: #534c5f;
+
+.article__conclusion {
+    color: #f3f1f7;
     font-family: 'Franklin Gothic Medium';
     text-align: justify;
     padding: 0 0 0 0px;
     font-style: italic;
     line-height: 24px;
 }
+
 }
-.diary{
-    color: rgb(4, 4, 65);
-   
+
+.diary {
+    color: rgb(22, 232, 247);
 }
+
 .diary__header {
-    color: #5762D5;
+    color: rgb(22, 232, 247);
+    
 }
+
 .diary__paragraph {
-    color: #534c5f;
+    color: #f8f6fa;
     font-family: 'Franklin Gothic Medium';
     text-align: justify;
     padding: 0 0 0 16px;
-    border-left: 2px dashed #5762D5;
+    border-left: 2px dashed rgb(238, 133, 241);
     line-height: 24px;
 }
-.diary__picture{
+
+.diary__picture {
     width: 100%;
     max-width: 150px;
     display: block;
     float: left;
-    margin: 0px 16px 0px 10px;   
+    margin: 0px 16px 0px 10px;
     border-radius: 10px;
 }
 
-.diary__header--question{
+.diary__header--question {
     text-align: justify;
     padding: 0 0 0 0px;
 }
 
 .diary__link {
-    color: #5762D5;
-    
+    color: rgb(230, 95, 185);
 }
 
-.navigation {
+.navigation {}
 
-}
 .navigation__list {
-list-style: none;
-padding: 0;
-height: 40px;
-display: flex;
-align-items: center;
-justify-content: center;
+    list-style: none;
+    padding: 0;
+    height: 40px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%)
+
 }
 
 .navigation__item {
-display: block;
-margin: 0 16px;
-}
-.navigation__link {
-    color: #5762D5;
+    display: block;
+    margin: 0 16px;
 }
 
-.section__idea{
-    color: #5762D5;
+.navigation__link {
+    color: rgb(236, 59, 177);
 }
-.section__paragraph{
-    color: #534c5f;
+
+.section__idea {
+    color: rgb(96, 243, 248);
+}
+
+.section__paragraph {
+    color: #f6f5f8;
     font-family: 'Franklin Gothic Medium';
     text-align: justify;
     padding: 0 0 0 16px;
-    border-left: 2px dashed rgb(236, 84, 13);
+    border-left: 2px dashed rgb(96, 243, 248);
     line-height: 24px;
 }
-.section__zumba{
+
+.section__zumba {
     width: 100%;
     max-width: 150px;
     display: block;
     float: left;
-    margin: 0px 16px 0px 10px;  
-    line-height: 24px; 
+    margin: 0px 16px 0px 10px;
+    line-height: 24px;
 }
-.zumba__trener{
+
+.zumba__trener {
     width: 100%;
     max-width: 150px;
     display: block;
     float: left;
-    margin: 0px 16px 0px 10px;   
+    margin: 0px 16px 0px 10px;
     border-radius: 10px;
 }
 
-
 .footer__look {
-    color: rgb(4, 4, 65);
+    color: rgb(90, 2, 71);
     font-family: 'Franklin Gothic Medium';
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 32px auto;
     font-size: 14px;
     font-style: italic;
-    border-top-color: 2px dashed rgb(236, 84, 13);
     line-height: 24px;
 }
-.footer__paragrah{
-  
-}
 
-.hobby{
+.footer__paragrah {}
 
-}
+.hobby {}
 
-.hobby__list{
+.hobby__list {
     list-style: square;
-    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+@media (max-width: 640px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
 }
