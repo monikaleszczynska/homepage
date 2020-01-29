@@ -66,4 +66,17 @@ console.log(button);
 button.addEventListener('click', (e) => {
 const header = document.querySelector('.main__header--js');
 header.innerHTML = 'klik, klik';
+header.classList.toggle('main__header--color');
+
+if (header.classList.contains('main__header--color')){
+    console.log('jest klasa');
+} else{
+    console.log('brak klasy');
+}
 }); 
+
+const navigationSwitcher = document.querySelector('.navigation__switcher--js');
+navigationSwitcher.addEventListener('click', (e) =>{
+    const navigationList = document.querySelector('.navigation__list--js');
+    navigationList.classList.toggle('navigation__list--visible');
+})
