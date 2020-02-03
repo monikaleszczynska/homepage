@@ -255,6 +255,18 @@ html {
 
 .footer__paragrah {}
 
+.form{
+    max-width: 600px;
+    width: 100%;
+}
+.form__backround{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+
+}
+
 .hobby {}
 
 .hobby__list {
