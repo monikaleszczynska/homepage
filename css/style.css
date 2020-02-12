@@ -146,8 +146,29 @@ html {
 
 .diary__header {
     color: rgb(22, 232, 247);
+
 }
 
+
+.diary__header::before {
+   content:"-";
+   display: inline;
+   margin-right: 5px;
+   width: 16px;
+   height: 32px;
+   border-radius: 50%;
+   background: white;
+}
+.diary__header::after {
+    content:"-";
+    display: inline;
+    margin-left: 5px;
+    width: 16px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgb(250, 132, 172);
+ }
+ 
 .diary__paragraph {
     color: #f8f6fa;
     font-family: 'Franklin Gothic Medium';
@@ -156,6 +177,9 @@ html {
     border-left: 2px dashed rgb(238, 133, 241);
     line-height: 24px;
 }
+
+
+
 
 .diary__picture {
     width: 100%;
@@ -177,15 +201,25 @@ html {
 
 .navigation {}
 
+.navigation:visited {
+    color: rgb(128, 130, 131);
+}
+
+
+.navigation:hover {
+    background: rgb(67, 207, 241);
+}
+
 .navigation__list {
     list-style: none;
     margin: auto;
     padding: 0;
-    height: 50px;
+    height: 70px;
+    weight: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%)
+    
 }
 
 .navigation__item {
@@ -193,10 +227,17 @@ html {
     margin: 0 16px;
 }
 
-.navigation__link {
+.navigation__link:hover{
     color: rgb(236, 59, 177);
 }
+.navigation__link:visited{
+    color: rgb(83, 79, 82);
 
+}
+
+.focus:focus{
+border: 3px solid red;
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
